@@ -1,10 +1,12 @@
- public class User{
+package Model;
+
+public class User{
      private String id;
      private String name;
      private String password;
-     private double balance;
+     private float balance;
 
-     public User(String id, String name, String password, double balance) {
+     public User(String id, String name, String password, float balance) {
          this.id = id;
          this.name = name;
          this.password = password;
@@ -35,11 +37,11 @@
          this.password = password;
      }
 
-     public double getBalance() {
+     public float getBalance() {
          return balance;
      }
 
-     public void setBalance(double balance) {
+     public void setBalance(float balance) {
          this.balance = balance;
      }
  }
