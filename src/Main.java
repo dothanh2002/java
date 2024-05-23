@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.Collection;
 
-public class toni {
+public class Main {
     public static void main(String[] args) {
         Connection connection = null;
         try {
@@ -57,3 +57,5 @@ public class toni {
         }
     }
 }
+
+
