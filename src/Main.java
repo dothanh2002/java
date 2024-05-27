@@ -1,5 +1,12 @@
 import java.sql.*;
 import java.util.Collection;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Scanner;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -43,8 +50,6 @@ public class Main {
             preparedStatement.execute();
 
 
-
-
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException exception) {
@@ -55,6 +60,7 @@ public class Main {
             System.out.println("connection closed");
         } catch (Exception e) {
         }
+
     }
 }
 
